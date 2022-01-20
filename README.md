@@ -7,6 +7,9 @@
 Real-Time Analytics:
  - Engagement Analytics: Automatically start tracking your game’s key performance indicators such as new user events, DAU, session length, playtime, and retention reporting
  - Custom Filtering: Breakdown and segment your players using custom filters such as; device type, geography, build version, and date ranges
+ 
+ Push Notifications:
+  - Send Cross-Platform Cloud Notifications to your players around the globe with ByteBrew's Push Notifications.
 
 Player Progression:
  - Game level statistics tracking to breakdown level wins, fails, scores and more.
@@ -44,6 +47,17 @@ A/B Testing:
 
 
  ## ChangeLog
+ ### 0.0.6
+ - Update to ByteBrew GoDot Android SDK
+ - Additions:
+    - Push Notifications: Launch of Push Notifications in ByteBrew with a one line of code integration in the SDK!
+    - Custom User Data Attributes: Add Key-Value Pair attributes to your user for segmentation use.
+    - Remote Config Read Check: New method to check whether remote configs have been retrieved without a callback, boolean will return.
+    - Get User ID: Ability to retrieve the ByteBrew User ID for your reference, mostly to use for push notifications.
+- Changes:
+    -GoDot SDK - Future ByteBrew SDKs will remove the older version of "TrackAdEvent" where placementType is a String, this will soon change to a enum AdType value. To comply with future SDKs we recommend only using three different types of placementTypes ex. "Reward", "Interstitial", "Banner". Please update them to these types.
+- Notes:
+    - Checkout documentation for further use of Push Notifications and more.
  ### 0.0.4
  - First launch of ByteBrew SDK availible for GoDot Android Developers
 
