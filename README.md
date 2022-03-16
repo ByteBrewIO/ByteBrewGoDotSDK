@@ -50,7 +50,7 @@ A/B Testing:
  ### 0.0.6.1
  - Update to ByteBrew GoDot Android SDK
  - Changes:
-    - SDK change for Android with Google ADID Policy Compliance Update.
+    - SDK change for Android with Google Policy Compliance Update.
  - Notes:
     - To Properly update the SDK, make sure to remove the whole "ByteBrewSDK" and reimport the new SDK, and don't forget to re-input your SDK Keys.
 
