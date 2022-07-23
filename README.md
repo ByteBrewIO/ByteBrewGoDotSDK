@@ -47,6 +47,13 @@ A/B Testing:
 
 
  ## ChangeLog
+ ### 0.0.8
+ - Update to ByteBrew GoDot Android SDK
+ - Updates:
+    - Minor updates to legacy code(android).
+ - Notes:
+    - To Properly update the SDK, make sure to remove the whole "ByteBrewSDK" and reimport the new SDK, and don't forget to re-input your SDK Keys.
+
  ### 0.0.6.1
  - Update to ByteBrew GoDot Android SDK
  - Changes:
