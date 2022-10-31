@@ -47,7 +47,14 @@ A/B Testing:
 
 
  ## ChangeLog
-  ### 0.0.9
+### 0.1.0
+ - Update to ByteBrew GoDot Android SDK
+ - Updates:
+    - Update for new A/B Testing features and fixes.
+ - Notes:
+    - To Properly update the SDK, make sure to remove the whole "ByteBrewSDK" and reimport the new SDK, and don't forget to re-input your SDK Keys. 
+
+### 0.0.9
  - Update to ByteBrew GoDot Android SDK
  - Updates:
     - Minor updates to code(android).
