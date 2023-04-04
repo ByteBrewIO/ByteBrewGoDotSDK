@@ -47,6 +47,14 @@ A/B Testing:
 
 
  ## ChangeLog
+### 0.1.2
+ - Update to ByteBrew GoDot Android SDK
+ - Updates:
+    - Minor Android updates.
+    - Updates for Google Ads Attribution.
+ - Notes:
+    - To Properly update the SDK, make sure to remove the whole "ByteBrewSDK" and reimport the new SDK, and don't forget to re-input your SDK Keys. 
+
 ### 0.1.1
  - Update to ByteBrew GoDot Android SDK
  - Updates:
