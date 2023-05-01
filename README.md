@@ -47,6 +47,13 @@ A/B Testing:
 
 
  ## ChangeLog
+### 0.1.3
+ - Update to ByteBrew GoDot SDK
+ - Updates:
+    - Added iOS Support
+ - Notes:
+    - To Properly update the SDK, make sure to remove the whole "ByteBrewSDK" and reimport the new SDK, and don't forget to re-input your SDK Keys. 
+
 ### 0.1.2
  - Update to ByteBrew GoDot Android SDK
  - Updates:
