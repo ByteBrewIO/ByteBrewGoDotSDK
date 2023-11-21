@@ -47,6 +47,17 @@ A/B Testing:
 
 
  ## ChangeLog
+### 0.1.4
+ - Update to ByteBrew Godot SDK
+ - Updates:
+    - Minor Android & iOS updates.
+    - Updates for Google Ads Attribution.
+    - iOS updated for ATT.
+    - Added new revenue parameter for track ad event.
+    - Updated support for Godot4 on iOS.
+ - Notes:
+    - To Properly update the SDK, make sure to remove the whole "ByteBrewSDK" and reimport the new SDK, and don't forget to re-input your SDK Keys.  
+ 
 ### 0.1.3
  - Update to ByteBrew GoDot SDK
  - Updates:

@@ -1,0 +1,4 @@
+module ByteBrewNativeiOSPlugin {
+    umbrella header "ByteBrewNativeiOSPlugin.h"
+    export *
+}
