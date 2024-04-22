@@ -47,6 +47,14 @@ A/B Testing:
 
 
  ## ChangeLog
+### 0.1.5
+ - Update to ByteBrew Godot SDK
+ - Updates:
+    - Minor iOS updates.
+    - Updated for Privacy Manifest.
+ - Notes:
+    - To Properly update the SDK, make sure to remove the whole "ByteBrewSDK" and reimport the new SDK, and don't forget to re-input your SDK Keys.   
+
 ### 0.1.4
  - Update to ByteBrew Godot SDK
  - Updates:
