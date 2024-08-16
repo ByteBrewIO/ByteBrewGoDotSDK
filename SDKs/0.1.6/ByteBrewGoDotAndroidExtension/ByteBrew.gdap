@@ -1,0 +1,9 @@
+[config]
+
+name="ByteBrew"
+binary_type="local"
+binary="bytebrew_godot.release.aar"
+
+[dependencies]
+
+remote=["com.google.android.gms:play-services-ads-identifier:17.0.0", "com.google.firebase:firebase-messaging:23.0.0", "com.android.installreferrer:installreferrer:2.2"]
