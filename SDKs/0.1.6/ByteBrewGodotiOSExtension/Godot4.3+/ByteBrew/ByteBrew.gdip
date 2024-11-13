@@ -1,0 +1,13 @@
+[config]
+name="ByteBrew"
+binary="libbytebrew_ios_godot_plugin.a"
+
+initialization="bytebrew_godot_plugin_init"
+deinitialization="bytebrew_godot_plugin_deinit"
+
+[dependencies]
+linked=["ByteBrew.xcframework"]
+embedded=[]
+system=["Foundation.framework","Security.framework","AdSupport.framework","AdServices.framework"]
+
+linker_flags=["-ObjC"]
